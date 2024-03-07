@@ -1,6 +1,6 @@
 # Object-Detection-and-analysis-using-pytorch-and-wandb
 
-Experimented Objectection on Russian Wildlife dataset
+Experimented Object detection on Russian Wildlife dataset
 
 ### Labels
 
