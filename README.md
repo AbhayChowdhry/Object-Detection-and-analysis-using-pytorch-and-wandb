@@ -1,12 +1,14 @@
 # Object-Detection-and-analysis-using-pytorch-and-wandb
 
+Experimented Objectection on Russian Wildlife dataset
+
 ### Labels
 
 - Cyan : glittering-fireworks : Default Convolutional Neural Network (Resnet18) with no fine-tuning
 - Green : sparkling-dog : Resnet18 (pretrained) is fine-tuned on the dataset with 0.0001 learning rate
 - Yellow : glistening-lantern : Resnet18 (pretrained) is fine-tuned on the dataset with 0.001 learning rate
-- Red : sweet-orchid : Augmented Data # 1
-- Blue : goldern-orchid : Augmented Data # 2
+- Red : sweet-orchid : Augmented Data # 1 (Resize, ToTensor, Normalize, RandomRotation, RandomHorizontalFlip, ColorJitter)
+- Blue : goldern-orchid : Augmented Data # 2 (Resize, ToTensor, Normalize, RandomRotation, RandomHorizontalFlip, GaussianBlur)
 
 ![alt text](https://github.com/AbhayChowdhry/Object-Detection-and-analysis-using-pytorch-and-wandb/blob/main/media/Training_acc.png)
 
